@@ -1,6 +1,6 @@
 # Govini Entity Resolution and Deduplification
 
-## Asignment
+## Assignment
 
 One of the problems that we face at Govini is mapping entities between disparate data sets. We collect data from a variety of different sources, and knowing that a certain entity is the same from one data set to another is essential.
 
@@ -15,21 +15,20 @@ https://s3.amazonaws.com/BUCKET_FOR_FILE_TRANSFER/interview.tar.xz
 
 The archive contains five files, described below:
 
-Procurement Data:
+<b>Procurement Data:</b>
 
-data/mdl__dim_vendor.csv - Company Information
-data/mdl__dim_geo.csv - Location Information
+- data/mdl__dim_vendor.csv - Company Information
+- data/mdl__dim_geo.csv - Location Information
 
 mdl__dim_vendor.csv references mdl__dim_geo.csv via the column geo_id.
 
-Finance Data:
+<b>Finance Data:</b>
 
-data/factset__ent_entity_coverage.csv - Company Information
-data/factset__ent_entity_structure.csv - Company Hierarchy
-data/factset__ent_entity_address.csv - Location Information
+- data/factset__ent_entity_coverage.csv - Company Information
+- data/factset__ent_entity_structure.csv - Company Hierarchy
+- data/factset__ent_entity_address.csv - Location Information
 
 All of these files are tied together using factset_entity_id.
-
 The end goal of this exercise is to explore the data, and map mdl__dim_vendor.vendor_id to corresponding factset__ent_entity_coverage.factset_entity_id. Ideally, a file containing three columns: vendor_id, factset_entity_id, confidence_of_match. Please make sure there is a README file that explains how your algorithm works.
 
 ## Algorithm
