@@ -1,4 +1,4 @@
-# Govini Entity Resolution and Deduplification
+# Entity Resolution and Deduplification
 
 ## Assignment
 
