@@ -69,7 +69,7 @@ Save our weights and predicates to disk.  If the settings file exists, we will s
 threshold = gazetteer.threshold(domain, recall_weight=1.0)
 ```
 
-we want all entities to get a match, even if they are not great matches, so we will set the threshold to 0 for the sake of this project. However, if your want to use the threshold that was found by the algorithm for best results, set `threshold =threshold`
+Because of this threshold, not all entities will be matched. If you want to match all entities, you can alter the threshold in the below line of code. You can also uncomment out line 190 of `dedupeGOVI.py` to write the line even if it doesn't get assignmed a match.
 
 `results = gazetteer.match(domain, threshold=0, n_matches=1, generator=True)`
 
