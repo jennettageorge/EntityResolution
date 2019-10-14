@@ -42,7 +42,6 @@ The secret sauce of dedupe is the active learning process:
 >With active learning, Dedupe.io keeps track of unlabeled pairs and their currently learned weights. At any time, there will be a record pair Dedupe.io will believe have a near a 50% chance of being a duplicate or distinct. By always asking you to label the record pair Dedupe.io is least certain about, we will learn the most we possibly can about your dataset for each training pair.
 
 ## Pipeline
- Dedupe uses python logging to show or suppress verbose output. Added for convenience.  To enable verbose logging, run `python examples/csv_example/csv_example.py -v`.
 
 #### Step 1 `preProcess(column)`:
 Do a little bit of data cleaning with the help of Unidecode and Regex.Things like casing, extra spaces, quotes and new lines can be ignored.
