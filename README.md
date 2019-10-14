@@ -2,7 +2,7 @@
 
 ## Assignment
 
-One of the problems that we face at Govini is mapping entities between disparate data sets. We collect data from a variety of different sources, and knowing that a certain entity is the same from one data set to another is essential.
+We collect data from a variety of different sources, and knowing that a certain entity is the same from one data set to another is essential.
 
 For example, there may be a company named "FOO" in one data set, and a company named "foo 123" in another. We need to be able to determine with a high enough confidence that those are the same entity. However, a majority of the time, the data does not share a unique key.
 
