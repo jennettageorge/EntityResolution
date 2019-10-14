@@ -77,7 +77,7 @@ Because of this threshold, not all entities will be matched. If you want to matc
 
 ## How to Run
 
-This process takes upwards of 7 hours to run.
+This process takes upwards of 7-10 hours to run.
 
 You have 2 options. I have supplied you with my `gazetteer_learned_settings` and `gazetteer_training.json` data. If you want to run the model with my learned settings, then run:
 ```consoleLabel
